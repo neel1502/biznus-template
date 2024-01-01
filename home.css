@@ -1,0 +1,86 @@
+.navbar-nav{
+    margin-left: auto;
+}
+.nav-link:hover{
+    background-color: black;
+    border-radius: 5px;
+}
+.hero-section img{
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+.hero-section{
+    position: relative;
+}
+.hero-heading h1{
+    position: absolute;
+    top:30%;
+    left:15%;
+    font-size: 52px;
+    line-height: 1.2;
+    color: #f9f9f9;
+    width: 35%;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+.hero-paragraph{
+    font-size: 18px;
+    position: absolute;
+    bottom:35%;
+    left:15%;
+    color: #f9f9f9;
+    width: 35%;
+}
+.hero-button button{
+   border-radius: 5px;
+   border: 1px solid #f9f9f9;
+   padding: 5px 25px;
+   position: absolute;
+   left:15%;
+   bottom: 28%;
+   background: transparent;
+   color: #ffffff;
+}
+.hero-button button:hover{
+    background-color: #f9f9f9;
+    color:black;
+}
+.support-section{
+    padding: 65px 0px;
+}
+.support-left{
+    font-size: 16px;
+    color: #878878;
+}
+.support-left{
+    font-size: 16px;
+}
+.support-right p{
+    width: 65%;
+}
+.support-left h2{
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+.support-wrapper{
+    display: flex;
+}
+.support-square{
+    position: relative;
+    height: 350px;
+    width: 350px;
+    background-color: #000000;
+    border-radius: 5px;
+}
+.support-number{
+    position: absolute;
+    color: #ffffff;
+    top:10%;
+    left:10%;
+    font-size: 40px;
+    font-weight: 700;
+}
+.support-text{
+    text-align: center;
+}
