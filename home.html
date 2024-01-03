@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
@@ -54,17 +55,26 @@
         </div>
     </nav>
     <div class="hero-section">
-        <img src="image.jpg" alt="" style="height:600px; width:100%">
-        <div class="hero-heading">
-            <h1>Serving you Since 1989</h1>
-        </div>
-        <p class="hero-paragraph">
-            Acme Outdoors is an outdoor and adventure shop located in the Boathouse District in Oklahoma City.
-        </p>
-        <div class="hero-button">
-            <button type="button ">Shop Merch</button>
+        <div class="container">
+            <div class="hero-description d-flex">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="hero-heading">
+                            <h1>Serving you <br> Since 1989</h1>
+                        </div>
+                        <p class="hero-paragraph">
+                            Acme Outdoors is an outdoor and adventure shop located in the Boathouse District in Oklahoma
+                            City.
+                        </p>
+                        <div class="hero-button">
+                            <button type="button ">Shop Merch</button>
 
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+    </div>
 
     </div>
     <div class="support-section">
@@ -86,16 +96,15 @@
             </div>
         </div>
     </div>
-
     <div class="support-wrapper">
         <div class="container">
-            <div class="support-column">
-                <div class="content-box">
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-6 col-12">
                     <div class="support-square">
                         <div class="support-number">
                             01
                         </div>
-                        <div class="support-text">
+                        <div class="support-text justify-content-center">
                             shop <br> products
                         </div>
                     </div>
@@ -103,7 +112,7 @@
                         still
                         something you can do. Get your gear now!</p>
                 </div>
-                <div class="content-box">
+                <div class="col-lg-4 col-md-6 col-12">
                     <div class="support-square">
                         <div class="support-number">
                             02
@@ -116,7 +125,7 @@
                         staff
                         is working. Donate to keep them afloat.</p>
                 </div>
-                <div class="content-box">
+                <div class="col-lg-4 col-md-6 col-12">
                     <div class="support-square">
                         <div class="support-number">
                             03
@@ -129,20 +138,24 @@
                         with
                         friends and family. </p>
                 </div>
-
             </div>
         </div>
     </div>
-    <div class="safe-section">
-        <div class="safe-image">
-            <img src="image2.jpg" alt="">
-            <div class="safe-wrapper">
 
-                <h2 class="safe-heading">How we're keeping you <br> safe during COVID-19</h2>
-                <p class="safe-paragraph">As an outdoor shop, we’ve taken precautionary <br> measures to ensure the
-                    safety of all our <br> customers and team members.</p>
-                <div class="safe-button">
-                    <button type="button">Read Our Statement</button>
+
+    <div class="safe-section">
+        <div class="container">
+            <div class="safe-image d-flex">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="safe-heading">How we're keeping you <br> safe during COVID-19</h2>
+                        <p class="safe-paragraph">As an outdoor shop, we’ve taken precautionary <br> measures to ensure
+                            the
+                            safety of all our <br> customers and team members.</p>
+                        <div class="safe-button">
+                            <button type="button">Read Our Statement</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -160,35 +173,41 @@
     </div>
     <div class="product-list-wrapper">
         <div class="container">
-            <div class="image-column">
-                <div class="image-box">
-                    <div class="list-items">
-                        <img src="image3.jpg" alt="">
-                    </div>
-                    <div class="shop-detail">
-                        <div class="shop-item-name">White Tent</div>
-                        <div class="shop-item-price">$&nbsp;200.00&nbsp;USD</div>
-                        <button type="button">Details</button>
-                    </div>
-                </div>
-                <div class="image-box">
-                    <div class="list-items">
-                        <img src="image4.jpg" alt="">
-                    </div>
-                    <div class="shop-detail">
-                        <div class="shop-item-name">Tin Coffee Tumbler</div>
-                        <div class="shop-item-price">$&nbsp;35.00&nbsp;USD</div>
-                        <button type="button">Details</button>
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="image-box">
+                        <div class="list-items">
+                            <img src="image3.jpg" alt="">
+                        </div>
+                        <div class="shop-detail">
+                            <div class="shop-item-name">White Tent</div>
+                            <div class="shop-item-price">$&nbsp;200.00&nbsp;USD</div>
+                            <button type="button">Details</button>
+                        </div>
                     </div>
                 </div>
-                <div class="image-box">
-                    <div class="list-items">
-                        <img src="image5.jpg" alt="">
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="image-box">
+                        <div class="list-items">
+                            <img src="image4.jpg" alt="">
+                        </div>
+                        <div class="shop-detail">
+                            <div class="shop-item-name">Tin Coffee Tumbler</div>
+                            <div class="shop-item-price">$&nbsp;35.00&nbsp;USD</div>
+                            <button type="button">Details</button>
+                        </div>
                     </div>
-                    <div class="shop-detail">
-                        <div class="shop-item-name">Blue Canvas Pack</div>
-                        <div class="shop-item-price">$&nbsp;95.00&nbsp;USD</div>
-                        <button type="button">Details</button>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="image-box">
+                        <div class="list-items">
+                            <img src="image5.jpg" alt="">
+                        </div>
+                        <div class="shop-detail">
+                            <div class="shop-item-name">Blue Canvas Pack</div>
+                            <div class="shop-item-price">$&nbsp;95.00&nbsp;USD</div>
+                            <button type="button">Details</button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -199,8 +218,9 @@
     </div>
     <div class="shop-local-section">
         <div class="container">
-            <div class="row">
-                <div class="shop-local-wrapper">
+            <div class="shop-local-wrapper">
+                <div class="row justify-content-end">
+
                     <div class="col-lg-9">
                         <div class="shop-right">
 
@@ -228,10 +248,46 @@
 
                         </div>
                     </div>
+                    <div class="shop-left">
+                        <img src="image6.jpg" alt="">
+                    </div>
+
                 </div>
             </div>
         </div>
     </div>
+
+
+    <div class="footer-section">
+        <div class="footer-wrapper">
+            <div class="container">
+                <div class="row justify-content-center">
+
+                    <div class="col-lg-4">
+                        <div class="footer-logo">
+                            <div class="text-white">A C M E</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="footer-text text-white">
+                            Made In
+                            <a href="" class="text-danger">Webflow</a>
+                            . © 2020.
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="footer-icon text-white">
+                            <i class='bx bxl-facebook'></i>
+                            <i class='bx bxl-twitter'></i>
+                            <i class='bx bxl-instagram'></i>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
 </body>
 
 </html>
