@@ -277,3 +277,8 @@ strong{
         width: 100%;
     }
   }
+  @media screen and (max-width:479px) {
+    .footer-wrapper{
+        flex-direction: column;
+    }
+  }

@@ -1,0 +1,109 @@
+body{
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+h1{
+    font-size: 64px;
+}
+h2{
+    font-size: 54px;
+}
+h3{
+    font-size: 44px;
+}
+h4{
+    font-size: 32px;
+}
+h5{
+    font-size: 20px;
+}
+h6{
+    font-size: 15px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 650;
+}
+ul,ol{
+    padding: 0;
+}
+.navbar-nav{
+    margin-left: auto;
+}
+.nav-link:hover{
+    background-color:#222;
+    border-radius: 5px;
+}
+.hero-section{
+    background-image: linear-gradient(360deg, #222, rgba(34, 34, 34, 0)),url(image9.jpg);
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+    padding: 200px 0;
+    text-align: center;
+
+    color: #ffffff;
+}
+/* .hero-description{
+    position: absolute;
+    top: 30%;
+    left:10%;
+    margin: auto;
+    text-align: center;
+    color:#f9f9f9;
+} */
+
+.content-section{
+    padding: 65px 0px; 
+}
+.donate-wrapper{
+    border: 2px solid #222;
+    text-align: center;
+}
+.donate-collection .donate-list{
+    list-style: none;
+    margin: 8px;
+}
+.donate-list a{
+    text-decoration: none;
+    border: 1px solid #eb5757;
+    border-radius: 5px;
+    color: #f9f9f9;
+    background-color: #eb5757;
+    padding: 12px 30px 14px;
+    display: block;
+    /* width: 100%; */
+    font-size: 24px;
+    font-weight: 800;
+}
+.donate-list a:hover{
+    background-color: #222;
+    border-color:#222;
+}
+
+.footer-section{
+    padding-top: 65px;
+    padding-bottom: 10px;
+    background-color: #222;
+}
+.footer-wrapper{
+   display: flex;   
+   justify-content: space-between;
+   align-items: center;
+}
+
+.footer-icon i{
+    margin-left: 8px;
+    font-size: 32px;
+}
+.footer-icon i:hover{
+    color: rgb(153,153,153);
+}
+.footer-bottom{
+    margin-top: 55px;
+    color: #f9f9f9;
+    text-align: center;
+}
+.footer-bottom .footer-text{
+    font-size: 12px;
+    margin-bottom: 10px;
+}
