@@ -37,7 +37,12 @@ ul,
 ol {
     padding: 0;
 }
-
+.navbar-text li{
+    list-style: none;
+}
+.navbar-text a{
+    text-decoration: none;
+}
 .navbar-nav {
     margin-left: auto;
 }
@@ -65,7 +70,6 @@ ol {
     font-size: 18px;
     margin-bottom: 25px;
 }
-
 .about-section button {
     border-radius: 5px;
     padding: 5px 25px;
@@ -73,6 +77,7 @@ ol {
     background: transparent;
     border: 1px solid #f9f9f9;
     font-weight: 500;
+    transition: 300ms ease;
 }
 
 .about-section button:hover {
@@ -109,7 +114,6 @@ ol {
 }
 
 .content-wrapper {
-    /* color: #f9f9f9; */
     position: relative;
 }
 
@@ -134,7 +138,6 @@ ol {
     padding: 90px 55px 90px 305px;
     border-radius: 5px;
 }
-
 @media screen and (max-width:991px) {
     .about-left {
         position: inherit;
@@ -196,6 +199,7 @@ ol {
     background: transparent;
     border: 1px solid #f9f9f9;
     font-weight: 500;
+    transition: 300ms ease;
 }
 
 .help-section button:hover {
@@ -219,6 +223,7 @@ ol {
 .footer-icon i {
     margin: 8px;
     font-size: 32px;
+    transition: 300ms ease;
 }
 
 .footer-icon i:hover {

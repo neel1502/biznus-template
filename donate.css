@@ -26,6 +26,12 @@ h1,h2,h3,h4,h5,h6{
 ul,ol{
     padding: 0;
 }
+.navbar-text li{
+    list-style: none;
+}
+.navbar-text a{
+    text-decoration: none;
+}
 .navbar-nav{
     margin-left: auto;
 }
@@ -62,9 +68,9 @@ ul,ol{
     background-color: #eb5757;
     padding: 12px 30px 14px;
     display: block;
-    /* width: 100%; */
     font-size: 24px;
     font-weight: 800;
+    transition: 300ms ease;
 }
 .donate-list a:hover{
     background-color: #222;
@@ -83,8 +89,10 @@ ul,ol{
 }
 
 .footer-icon i{
-    margin-left: 8px;
-    font-size: 32px;
+    margin: 8px;
+    font-size: 32px; 
+    transition: 300ms ease;
+
 }
 .footer-icon i:hover{
     color: rgb(153,153,153);
@@ -97,4 +105,10 @@ ul,ol{
 .footer-bottom .footer-text{
     font-size: 12px;
     margin-bottom: 10px;
+}
+@media screen and (max-width:479px) {
+    .footer-wrapper {
+        flex-direction: column;
+    }
+
 }

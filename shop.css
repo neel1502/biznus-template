@@ -26,6 +26,12 @@ h1,h2,h3,h4,h5,h6{
 ul,ol{
     padding: 0;
 }
+.navbar-text li{
+    list-style: none;
+}
+.navbar-text a{
+    text-decoration: none;
+}
 .navbar-nav{
     margin-left: auto;
 }
@@ -52,7 +58,6 @@ ul,ol{
     position: relative;
 }
 .image-box img{
-    /* position: relative !important; */
     background-image:url(image3.jpg);
     height: 250px;
     object-fit: cover;
@@ -69,7 +74,6 @@ ul,ol{
     top:8%;
     right: 2%;
     position: absolute;
-    /* left:auto; */
 }
 .feature-item button{
     border-radius: 5px;
@@ -94,6 +98,7 @@ ul,ol{
     font-weight: 700;
     width: 100%;
     display: block;
+    transition: 300ms ease;
 }
 .shop-category-item a:hover{
     color: #f9f9f9;
@@ -111,6 +116,7 @@ ul,ol{
     border-color: #eb5757;
     font-weight: 700;
     margin: 15px 0px;
+    transition: 300ms ease;
 }
 .shop-detail button:hover{
     background-color: #000000;
@@ -131,8 +137,9 @@ ul,ol{
 }
 
 .footer-icon i{
-    margin-left: 8px;
+    margin: 8px;
     font-size: 32px;
+    transition: 300ms ease;
 }
 .footer-icon i:hover{
     color: rgb(153,153,153);
@@ -145,4 +152,10 @@ ul,ol{
 .footer-bottom .footer-text{
     font-size: 12px;
     margin-bottom: 10px;
+}
+@media screen and (max-width:479px) {
+    .footer-wrapper {
+        flex-direction: column;
+    }
+
 }

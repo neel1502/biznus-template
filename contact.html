@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,10 +14,13 @@
         rel="stylesheet">
     <link rel="stylesheet" href="contact.css">
 </head>
+
 <body>
     <nav class="navbar navbar-expand-sm fixed-top" style="background-color: #eb5757;">
         <div class="container">
-            <div class="text-white">A C M E</div>
+            <ul class="navbar-text mt-3">
+                <li><a href="home.html" class="text-white">A C M E</a></li>
+            </ul>
             <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#link">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -41,5 +45,124 @@
             </div>
         </div>
     </nav>
+    <div class="contact-outdoors">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="contact-info">
+                        <div class="container">
+                            <h4 class="text-white">Contact Acme Outdoors</h4>
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6 col-12">
+                                    <div class="contact-wrapper">
+                                        <div class="contact-box">
+                                            <svg role="img" xmlns="http://www.w3.org/2000/svg" width="48px"
+                                                height="48px" viewBox="0 0 24 24" aria-labelledby="chatAltIconTitle"
+                                                stroke="#eb5757" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round" fill="none" color="#eb5757">
+                                                <title id="chatAltIconTitle">Chat</title>
+                                                <path d="M13,17 L7,21 L7,17 L3,17 L3,4 L21,4 L21,17 L13,17 Z" />
+                                            </svg>
+                                            <h4 class="contact-heading">Contact Us</h4>
+                                            <p>Just want to say hi? We'd love to hear from you. We love our customers
+                                                and community! </p>
+                                            <button type="button">Send Us A Message</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6  col-12">
+                                    <div class="contact-wrapper">
+                                        <div class="contact-box">
+                                            <svg width="48px" height="48px" viewBox="0 0 24 24"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                aria-labelledby="chatWarningIconTitle" stroke="#eb5757" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" fill="none"
+                                                color="#eb5757">
+                                                <title id="chatWarningIconTitle">Chat with a warning state</title>
+                                                <path d="M12 7V11" />
+                                                <path d="M21 4V17H13L7 21V17H3V4H21Z" />
+                                                <line x1="12" y1="14" x2="12" y2="14" />
+                                            </svg>
+                                            <h4  class="contact-heading">Get Support</h4>
+                                            <p> Have an issue with an order or with a product you purchased from us?
+                                                Fill out our support form.</p>
+                                            <button type="button">Contact Support</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="contact-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="contact-address">
+                        <h4>Contact Us</h4>
+                        <p>Acme Outdoors
+                            123 Rainy Street
+                            Oklahoma City, OK 73129</p>
+                        <p><strong>General Inquiries: </strong>&nbsp;(405) 555-5555 <br>
+                            <strong>Customer Support:</strong>&nbsp;(405) 555-5556
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-9">
+                    <div class="contact-form">
+                        <h4>Contact Form </h4>
+                        <p>Send us a message and we'll get back to you as soon as we can!</p>
+                        <form action="">
+                            <div class="form-group mt-3">
+                                <label for="">Name</label>
+                                <input type="Name" class="form-control" placeholder="Enter Your Name">
+                            </div>
+                            <div class="form-group mt-3">
+                                <label for="">Email Address</label>
+                                <input type="email" class="form-control" placeholder="Enter Your Email Address">
+                            </div>
+                            <div class="form-group mt-3">
+                                <label for="example" class="form-label">Your Message</label>
+                                <textarea name="" id="example" class="form-control"
+                                    placeholder="Enter Your Message"> </textarea>
+                            </div>
+                            <button type="submit" class="mt-3">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-section">
+
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="footer-wrapper">
+                    <div class="footer-logo">
+                        <div class="text-white">A C M E</div>
+                    </div>
+                    <div class="footer-icon text-white">
+                        <i class='bx bxl-facebook'></i>
+                        <i class='bx bxl-twitter'></i>
+                        <i class='bx bxl-instagram'></i>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <div class="footer-text text-white">
+                        Made In
+                        <a href="" class="text-danger">Webflow</a>
+                        . © 2020.
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
 </body>
-</html>      
+
+</html>

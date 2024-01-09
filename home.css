@@ -21,6 +21,12 @@ h1,h2,h3,h4,h5,h6{
     font-family: 'Nunito', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
+.navbar-text li{
+    list-style: none;
+}
+.navbar-text a{
+    text-decoration: none;
+}
 .navbar-nav{
     margin-left: auto;
 }
@@ -62,15 +68,12 @@ h1,h2,h3,h4,h5,h6{
     background: transparent;
     border:1px solid #f9f9f9;
     font-weight: 500;
+    transition: 300ms ease;
 }
 .hero-button button:hover{
     color:#222;
     background-color:#f9f9f9;
     border-color: #f9f9f9;
-    transition-delay: 300ms ease;
-}
-.support-wrapper{
-    display: flex;
 }
 .support-square{
     height: 330px;
@@ -136,12 +139,12 @@ h1,h2,h3,h4,h5,h6{
    color: #000000;
    padding: 5px 25px;
    border-color: #f9f9f9;
+   transition: 300ms ease;
 }
 .safe-button button:hover{
     color: #f9f9f9;
     background-color: #eb5757;
     border-color: #eb5757;
-    transition-delay: 300ms ease;
 } 
 .product-list-wrapper{
     padding-bottom: 65px;
@@ -180,6 +183,7 @@ h1,h2,h3,h4,h5,h6{
     border-color: #eb5757;
     font-weight: 700;
     margin: 15px 0px;
+    transition: 300ms ease;
 }
 .shop-detail button:hover{
     background-color: #000000;
@@ -195,6 +199,7 @@ h1,h2,h3,h4,h5,h6{
     color: #f9f9f9;
     border-radius: 5px;
     padding: 5px 25px;
+    transition: 300ms ease;
 }
 .shop-more button:hover{
     border-color: #eb5757;
@@ -235,10 +240,13 @@ strong{
     font-family: 'Nunito', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
+.shop-wrapper{
+    padding-left: 145px;
+    padding-right: 145px;
+}
 .shop-right p{
     margin:auto;
     text-align: center;
-    width: 65%;
 }
 .footer-section{
     padding-top: 65px;
@@ -252,8 +260,9 @@ strong{
 }
 
 .footer-icon i{
-    margin-left: 8px;
+    margin: 8px;
     font-size: 32px;
+    transition: 300ms ease;
 }
 .footer-icon i:hover{
     color: rgb(153,153,153);
@@ -275,6 +284,10 @@ strong{
     .shop-left img{
         height: auto;
         width: 100%;
+    }
+    .shop-wrapper{
+        padding-left: 40px;
+        padding-right: 40px;
     }
   }
   @media screen and (max-width:479px) {
